@@ -1,0 +1,112 @@
+
+@media (max-width:400px) {
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+         }
+    .main{
+        display: flex;
+        gap:2px;
+    }     
+    .course{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .side-menuright{
+        flex-wrap: wrap;
+    }
+}
+
+
+nav img{
+    height:80px ;
+
+}
+nav{
+    display:flex;
+    background-color: antiquewhite;
+
+}
+nav ul{
+    display: flex;
+}
+nav  li{
+    display:inline;
+    list-style-type: none;
+    margin: 10px;
+    padding:15px;
+    background-color: antiquewhite;
+align-self: center;
+
+}
+
+.container{
+    display: flex ;
+    margin-top: 10px;
+}
+
+.side-menuleft{
+    display: none;
+    position: absolute;
+    color: white;
+    padding : 0.5rem 1rem;
+    font-size: larger;
+    line-height: 50px;
+    width: 50%; /* كنت عايزا حجم المينيو ياخد نص الصفحه*/
+    z-index: 1;
+
+}
+
+
+.side-menuleft a{ 
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(214, 199, 228);
+    
+}
+
+.menu:hover + .side-menuleft {
+margin : 10px;
+padding:20px;
+    display: block;
+
+  }
+.side-menuright{
+position: relative;
+    left:20%;
+    width: 70%;
+}
+
+
+
+.course{
+    width: 300px;
+    border-radius: 10px;
+    height:300px;
+    border-width: 5px;
+border: solid 2px gray;
+display: inline-grid;
+column-gap: 5px;
+}
+
+#adding{
+
+margin: 5px;
+padding:10px;
+border: solid 2px gray;
+border-radius: 5px;
+background-color: aquamarine;
+color:black;
+width: 300px;
+height:300px;
+
+}
+
+#adding input{
+    width:90%;
+
+}
+
